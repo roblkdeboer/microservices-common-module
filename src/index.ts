@@ -1,3 +1,4 @@
+// Re-export common code from middlewares and error handlers
 export * from './errors/bad-request-error';
 export * from './errors/custom-error';
 export * from './errors/database-connection-error';
