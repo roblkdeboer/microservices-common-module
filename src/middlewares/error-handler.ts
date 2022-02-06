@@ -12,7 +12,7 @@ export const errorHandler = (
     // Return early and not continue running the code
     return res.status(err.statusCode).send({ errors: err.serializeErrors() });
   }
-  console.log(err);
+  // console.log(err);
 
   //   Sent to the front end
   res.status(400).send({

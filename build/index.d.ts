@@ -13,3 +13,4 @@ export * from './events/templates/base-publisher';
 export * from './events/subjects';
 export * from './events/ticket-created-event';
 export * from './events/ticket-updated-event';
+export * from './types/order-status';

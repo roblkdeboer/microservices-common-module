@@ -26,3 +26,4 @@ __exportStar(require("./events/templates/base-publisher"), exports);
 __exportStar(require("./events/subjects"), exports);
 __exportStar(require("./events/ticket-created-event"), exports);
 __exportStar(require("./events/ticket-updated-event"), exports);
+__exportStar(require("./types/order-status"), exports);
