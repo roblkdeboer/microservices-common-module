@@ -10,7 +10,8 @@ export abstract class Publisher<T extends Event> {
   // Abstract properties must be defined by the subclass
   abstract subject: T['subject'];
 
-  private client: Stan;
+  // Protected: subclass can define it if it wants to
+  protected client: Stan;
 
   constructor(client: Stan) {
     this.client = client;

@@ -16,8 +16,7 @@ export abstract class Listener<T extends Event> {
 
   // Protected: subclass can define it if it wants to
   protected ackWait = 5 * 1000;
-
-  private client: Stan;
+  protected client: Stan;
 
   constructor(client: Stan) {
     this.client = client;
